@@ -1,0 +1,224 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Электрон солиқ хизматлари</title>
+        <link href="favicon.ico" rel="icon">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/application.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <link href="css/toastr.min.css" rel="stylesheet">
+        <script src="js/toastr.min.js"></script>
+        <style type="text/css">
+            optgroup {
+                font-weight: bold;
+            }
+
+            .for-mobile header,.for-mobile nav,.for-mobile footer,.for-mobile .row-buttons,.for-mobile .right-side,.for-mobile .left-side .panel-heading,.for-mobile .left-side .description,.for-mobile .left-side .icon,.for-mobile .micro-show{
+                display: none;
+            }
+            .for-mobile .container-fluid, .for-mobile .container{
+                padding: 0 !important;
+                width: 100% !important;
+            }
+            .for-mobile .smart-panel,.for-mobile .panel-body{
+                padding: 0 !important;
+            }
+            .for-mobile .smart-panel .left-side .panel-body .fieldset{
+                border:none !important;
+            }
+            .for-mobile .page-services .table tbody td:first-child{
+                width: 180px !important;
+            }
+        </style>
+    </head>
+    <body class>
+        <div id="main-wrapper" class="cab-1">
+            <div id="canvas">
+                                <div id="nav-small">
+                    <h2 id="title"></h2>
+                    <ul id="toggle">
+                        <li>
+                            <div>
+                                <a href="/main/about-portal">Барча хизматлар</a>
+                                <span class="the-btn fa fa-plus"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="active border">
+                                <a href="/main/about-portal">Портал хақида</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="border">
+                                <a href="/main/news">Мақолалар</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="border">
+                                <a href="/main/polls">Сўровлар</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="border">
+                                <a href="/main/contacts">Алоқа </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>                <a href="#" class="toggle-nav hidden-lg hidden-md not-print" id="bars"><i class="fa fa-bars"></i></a>
+                <header class="not-print">
+                    <div class="container">
+                        <div class="pull-left">
+                            <a class="brand" href="/"></a>
+                        </div>
+                        <div class="entitlement pull-left">
+                            <h1 class="type-30 ff-rCondensedBold">Электрон солиқ хизматлари</h1>
+                            <h4 class="type-14 ff-rCondensed hidden-xs">Солиқ органларининг электрон давлат хизматлари портали</h4>
+                            <span class="line hidden-xs"></span>
+                            <h4 class="type-18 ff-sPrint hidden-xs"><span class="text-upCase ff-dChampa fw-normal">my.soliq.uz</span> - <span style="display: inline-flex;" class="text-right">Солиқ мажбуриятларини бажаришнинг <br> ишончли ва қулай усули </span></h4>
+                        </div>
+                        <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs not-print">
+                            <li class="change-lang">
+                                <a href="?lang=uz" title="Ўзбек тилига ўтиш" class="uzb active"><i class="fa fa-globe"></i> Ўзбекча</a>
+                                <a href="?lang=ru" title="Перейти на русский язык" class="rus "><i class="fa fa-globe"></i> Русский</a>
+                                </li>
+                                <li class="phones text-right">
+                                    <span class="d-block type-14 ff-rCondensed">Автоинформатор: <span class="type-18 ff-rCondensedbold">(0 371) 202-32-82</span></span>
+                            </li>
+                        </ul>
+                        <div class="b-group pull-right hidden-xs">
+                <a class="btn btn-default sign-up" type="button" href="https://esi.uz/register/user"><i class="fa fa-edit"></i> Рўйхатдан ўтиш</a>
+                            <a class="btn btn-default how-toGet" type="button" href="/main/howtoget-eds"><span></span> ЭРИ қандай олинади?</a>
+                        </div>
+                    </div>
+                </header>
+                <nav id="navbar" class="hidden-sm hidden-xs not-print">
+                    <div class="container">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/main"><i class="fa fa-home"></i></a></li>
+                            <li><a href="/main/about-portal">Портал хақида</a></li>
+                            <li><a href="/main/news">Мақолалар</a></li>
+                            <li><a href="https://soliq.uz/" target="_blank">ДСҚ сайти</a></li>
+                            <li><a href="/main/howtoget-eds">ЭРИ хақида</a></li>
+                            <li><a href="/main/statistics">Статистика</a></li>
+                            <li><a href="/main/polls-direction">Сўровлар</a></li>
+                            <li><a href="/main/contacts">Алоқа</a></li>
+                        </ul>
+                        <div class="navbar-form navbar-right" role="search">
+                            <div class="form-group">
+                                <input type="text" id="search_text" class="form-control" placeholder="Хизматларни излаш">
+                                <input type="hidden" id="search_parts" value="1,2,3,4,5,6,7,8,9">
+                                <ul class="dropdown-menu" id="direction-part">
+                                         <li> <a data-value="1,2,3,4,5,6,7,8,9" href="#"> Все разделы </a> </li>
+                                </ul>
+                            </div>
+                                <button type="button" class="btn btn-darkBlue" onclick="searchResult();">Излаш</button>
+                        </div>
+                    </div>
+                </nav>
+ <script type="text/javascript">
+    function searchResult() {
+         window.location.href = '/main/?search='+$('#search_text').val(); 
+    };
+</script> 
+                
+
+
+
+
+
+<style>
+    #page-div{width:785px !important;}
+</style>
+
+<div class="container-fluid page page-services">                
+    <div class="container">                
+        <div class="row">
+            <div class="col-md-12">
+                <div class="smart-panel">                    
+                    <div class="row" id="document">
+                        <div class="panel-body">
+                            <form id="form" method="post" action="/repository/get-document/a74b171c-2ce9-4c47-ba29-ff6ee20e15b1" accept-charset="UTF-8">
+                                <div class="row row-controls">
+                                    <div class="col-md-4" onclick="loadCaptcha();" title="Янгилаш учун босинг">
+                                        <label class="control-label" for="captcha">Расмдаги сонни киритинг</label>
+                                        <img style="margin-left: 50px;" src="data:image/jpeg;base64, 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" alt="" class="img-recaptcha">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <input name="captcha" type="text" id="captcha" class="form-control" maxlength="4" size="4" autocomplete="off">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button class="btn btn-custom btn" type="button" onclick="$('#form').submit();">
+                                          <a href="https://drive.google.com/file/d/1o-Nlw9BXAo73BvXKeZ_gc9QQOl1XtkFC/preview" target="_blank">Жўнатиш</a>                          
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $().ready(function() {
+        loadCaptcha();
+    });    
+</script>
+                </div>
+            <footer id="footer" class="not-print">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                <div class="entitlement">
+                                    <h1>Электрон солиқ хизматлари</h1>
+                                <span class="line"></span>
+                                <h4 class="small hidden-xs">Солиқ органларининг электрон давлат хизматлари портали</h4>
+                            </div>
+                            <p class="copy">© 2015 - 2022 Давлат солиқ қўмитаси. <br>Фақатгина фаол гипер ҳавола орқали материаллардан тўлиқ ва қисман фойдаланиш мумкин.</p>
+                        </div>
+                        <div class="col-lg-5 col-md-5 hidden-sm hidden-xs">
+                            <div class="fixed-tooltip">
+                                <p>Диққат! Агар Сиз матнда хатолик топсангиз администраторга хабар бериш учун, хато сўзни белгилаб Ctrl+Enter тугмасини босинг.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                            <div class="tech-support">
+                                <span class="icon pull-left"></span>
+                                <p>Портал ДСҚ ЯТИАМ томонидан <br> ишлаб чикилган</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/application.js"></script>        
+        <script type="text/javascript" src="js/bootstrap-number-input.js"></script>
+    </body>
+</html>
+<script type="text/javascript">
+    var loadCaptcha = function() {
+        $.getJSON("/repository/captcha", {},
+                function(data) {
+                    if (data.success) {
+                        $("#captcha").val('');
+                        $("#captchaCheck").val('');
+                        $(".img-recaptcha").attr('src', data.imgSrc);
+                    } else {
+                        alert(data.reason);
+                    }
+                }
+        );
+    }
+</script>
